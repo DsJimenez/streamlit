@@ -83,7 +83,7 @@ with col2:
 st.subheader('Relacion Cuenta/Propina')
 
 fig = px.scatter(
-    datos,
+    datos_filtrados,
     x='cuenta_total',
     y='propina',
     color='hora',
